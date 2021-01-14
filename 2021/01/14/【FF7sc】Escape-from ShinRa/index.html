@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"8.0.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}};
+  </script>
+
+  <meta name="description" content="BGM：Safe and Sound   警报声蜂鸣，红色的报警灯沿着走廊由远及近依次亮起。 下级士兵和机械警卫在神罗大厦围成水泄不通的扇形，武装直升机徘徊在半空中，刺眼的探照灯在夜间来回照射。人影摇摇晃晃地出现在破碎的玻璃门前，激光红点齐刷刷地瞄准，又因为来人的身份而有所犹疑。 “宝条博士？” “该死的……”满脸是血的博士含糊不清地骂道，“他在上……”">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【FF7sc】Escape - from ShinRa">
+<meta property="og:url" content="http://example.com/2021/01/14/%E3%80%90FF7sc%E3%80%91Escape-from%20ShinRa/index.html">
+<meta property="og:site_name" content="解缘">
+<meta property="og:description" content="BGM：Safe and Sound   警报声蜂鸣，红色的报警灯沿着走廊由远及近依次亮起。 下级士兵和机械警卫在神罗大厦围成水泄不通的扇形，武装直升机徘徊在半空中，刺眼的探照灯在夜间来回照射。人影摇摇晃晃地出现在破碎的玻璃门前，激光红点齐刷刷地瞄准，又因为来人的身份而有所犹疑。 “宝条博士？” “该死的……”满脸是血的博士含糊不清地骂道，“他在上……”">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-01-14T08:02:27.000Z">
+<meta property="article:modified_time" content="2021-01-14T08:55:03.438Z">
+<meta property="article:tag" content="FF7-短篇集">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://example.com/2021/01/14/%E3%80%90FF7sc%E3%80%91Escape-from%20ShinRa/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>【FF7sc】Escape - from ShinRa | 解缘</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">解缘</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">左侧菜单栏有分类功能</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <section class="post-toc-wrap sidebar-panel">
+      </section>
+      <!--/noindex-->
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt=""
+      src="/images/profile.png">
+  <p class="site-author-name" itemprop="name"></p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">16</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </section>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+      
+
+      
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/01/14/%E3%80%90FF7sc%E3%80%91Escape-from%20ShinRa/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/profile.png">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="解缘">
+    </span>
+
+    
+    
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          【FF7sc】Escape - from ShinRa
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2021-01-14 16:02:27 / 修改时间：16:55:03" itemprop="dateCreated datePublished" datetime="2021-01-14T16:02:27+08:00">2021-01-14</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/FF7/" itemprop="url" rel="index"><span itemprop="name">FF7</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/FF7/%E7%9F%AD%E7%AF%87%E9%9B%86/" itemprop="url" rel="index"><span itemprop="name">短篇集</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <br>
+
+<p>BGM：<a target="_blank" rel="noopener" href="https://music.163.com/#/mv?id=5466">Safe and Sound</a></p>
+<br>
+
+<p>警报声蜂鸣，红色的报警灯沿着走廊由远及近依次亮起。</p>
+<p>下级士兵和机械警卫在神罗大厦围成水泄不通的扇形，武装直升机徘徊在半空中，刺眼的探照灯在夜间来回照射。人影摇摇晃晃地出现在破碎的玻璃门前，激光红点齐刷刷地瞄准，又因为来人的身份而有所犹疑。</p>
+<p>“宝条博士？”</p>
+<p>“该死的……”满脸是血的博士含糊不清地骂道，“他在上……”</p>
+<a id="more"></a>
+
+<p>晚了。</p>
+<p>微弱的光亮从内部映在八层的落地玻璃上，旋即在引擎狂暴的轰鸣中，摩托横空出世！碎片如同慢动作般闪烁在空中，绚烂地绽放开，化作万千星芒坠落。扳机扣动，弹药以可怕的密度倾泻而出，如同幕布般笼罩了车身；透明屏障剧烈波动，跳弹在车身擦出金色的火花。</p>
+<p>“别开枪！萨菲罗斯在——！”</p>
+<p>一声炸裂的巨响。</p>
+<p>耀眼的爆炸过后，燃烧的残骸四溅翻滚，生硬地撕开防线。黑衣的入侵者一个翻滚泄去冲劲，趁着混乱悄无声息地突破了防线，幽灵般融入夜幕。<br>摩托是被自行引爆的。意识到这一点时，他们已经彻底失去了他的踪迹。</p>
+<p><br><br><br></p>
+<p>“你自己吃，或者我塞进去。”</p>
+<p>盘子被生硬地砸在桌上，水杯跳了一下，寒碜的黑面包和香肠在碟子里滚动着。金发青年单手把萨菲罗斯拎坐在椅子上，给他松绑，然后拉开对面的椅子坐下，打开了当天的报纸。头条是神罗遇袭事件，大大的废墟照片占据了整个封面。</p>
+<p>萨菲罗斯活动着淤血的腕关节，冷静地分析现状：青年的注意完全在报纸上，甚至连一点目光也吝于分享；他又看了看盘子边的餐刀，是个异常诱人的选项。但是在权衡利弊后，萨菲罗斯选择拿起叉子，开始慢慢将那些难以下咽的食物塞进嘴里，机械地咀嚼着。</p>
+<p>“你的目的是什么？”萨菲罗斯状似随意地问。</p>
+<p>青年翻开下一页。</p>
+<p>“想向神罗要求支付赎金？”</p>
+<p>青年皱眉，撕下其中一页。</p>
+<p>“说真的，你应该去绑架卢法斯的，他比我值钱多了。”</p>
+<p>青年把报纸揉成一团，随手从窗户丢了出去，和后院食槽里的野菜头混在一起，被陆行鸟争相抢食殆尽。“你似乎……”他可能终于被萨菲罗斯说烦了，看起来不是打算责骂，就是打算动手；但无论哪个选项，对萨菲罗斯而言都比无动于衷的样子来得有利。“一点都不害怕？”</p>
+<p>害怕？萨菲罗斯？“你能对我做什么？能比宝条更糟？”</p>
+<p>那句话中一定有什么触动了青年，因为对方不自觉地抽动了一下眼角，表情也从冷漠变成紧绷。萨菲罗斯记下这一点，并决定有机会再作试探。</p>
+<p>“……不要试图套话。”最终，青年也只是这么说。</p>
+<p>无机质的绿眸闪烁了一下，又无言地低垂，让安静重回难得平和的早餐时间。萨菲罗斯吃完自己那份时，青年也解决了自己的咖啡；也许他整个晚上都没休息，但是看起来也并不怎么疲惫，即使在完成那些壮举后。</p>
+<p>当对方重新拿起绳索，意图再次以扛的方式移动萨菲罗斯时，男孩终于忍不住了，“我可以自己走。”</p>
+<p>“你没有选择权。”</p>
+<p>“除非你希望我吐你背上。”</p>
+<p>“……”</p>
+<p>又来了。奇怪的沉默，还有奇怪的妥协，萨菲罗斯对这个各方面意义上都乱七八糟的劫持者产生了一种难以言喻的困惑感。那种过于矛盾的特质，强大与软弱和谐共存，却时不时突兀地跳出来，提示着种种不协调之处。<br>变故突生！金属罐子划过抛物线投进窗户，哐当一声撞上床脚，弹在地板上时嗤的一声泄出大量白色气体。催眠瓦斯。没来的及思考更多，右手被青年紧紧攥住猛地一带，整个人踉踉跄跄向窗户扑去。</p>
+<p>身体一阵悬空。</p>
+<p>萨菲罗斯能看见屋檐下藏着的那些士兵，绳索枪的金属端锋芒闪烁，几名塔克斯蛰伏在更深的阴影中，他们甚至动用了那个韦德。但是这些都没能令他视线停留，他只是惊讶地注视青年握着自己的手，那只手是强硬的，粗糙的，将自己小小的手掌完全包裹，属于另一个人的温度传递过来……<br>棚屋轰然倾塌，冲击扬起大片烟尘。在一阵呛咳和骂声中，陆行鸟发出惊恐的尖叫，狂乱地扑扇着翅膀上蹿下跳。</p>
+<p>“快、快追——”</p>
+<p>“分头行动——！”</p>
+<p>韦德悄无声息地留在原地，不曾动弹，嘴角却慢慢舒展开，因这难得的乐趣微笑起来。鹰隼般锐利的目光透过重重迷雾，径直锁定了潜伏的人影。有趣的把戏，但是同样的招式想要用上两遍，未免太轻率了。</p>
+<p>“你还在等什么，萨菲罗斯？”</p>
+<p>金发青年睁大双眼，难以置信地往前踉跄一步，回头时只有满眼的茫然，不曾预料萨菲罗斯会在这种时候背叛……背叛……就像是……他曾相信他一样。<br>餐刀刺进了青年的后腰，而与此同时，韦德也扣下扳机。</p>
+<p><br><br><br></p>
+<p>眼前一片漆黑，坠落的冲击令内脏隐隐作痛。</p>
+<p>萨菲罗斯甩甩脑袋，稍稍清醒，然后猛地坐了起来。他被眼前的这一幕深深地震惊了：金发青年垫在身下，用身体为自己做了缓冲；后腰的刀彻底穿透了腹部，从前面刺出，血泊浸透了土壤与花丛；黯淡的蓝眼睛半睁着，虚无地注视上方，鲜血自鼻孔和嘴角溢出，弄脏了美丽的脸庞。</p>
+<p>他不知道为什么要试试对方的呼吸，但是他不得不这么做，颤抖着伸出手。</p>
+<p>一只手轻轻贴上萨菲罗斯的脸颊，魔力闪过，强烈的电流骤然贯穿了萨菲罗斯！</p>
+<p>青年眨动双眼，把男孩麻痹的身体拨到一旁，蜷起身子，闷哼着拔出餐刀。更多的血涌了出来。他捂着腹部颤抖了许久，久到萨菲罗斯以为他要再次失去意识，或者下一秒就此死去。但是呼吸终于平稳下来，血流也有所缓和；令萨菲罗斯更为惊讶的是，他肩膀和手臂的枪伤已经愈合了。</p>
+<p>这样的速度……和自己……？</p>
+<p>“你应该告诉我，”青年站起来，找到自己的大剑，重新搭回后腰，“你身上有定位器的。”</p>
+<p>萨菲罗斯反应过来，这就是电击的理由？</p>
+<p>“如果你不想被扛着走，最好现在就站起来。”</p>
+<p>“……为什么？”</p>
+<p>“？”</p>
+<p>“为什么不问？”先开口就输了，不该这么急切；但是萨菲罗斯没有办法，他不可能指望这个怪人先开口，“我刺伤了你——我想杀了你！”</p>
+<p>青年无意识地抓紧了毛衣胸口处，然后掩饰般整理了一下衣领，“没什么。”他说，仿佛这根本不是什么值得惊讶的事，“习惯了。”</p>
+<p>他伸手去拉萨菲罗斯，被男孩一巴掌拍开，“我搞不懂你！既不是为了钱，也不是报复行动竟然——”竟然还试图保护一个敌人，因为他看起来是个孩子吗？“你要带我去哪？”</p>
+<p>“你想留在神罗？”青年问。</p>
+<p>“是的，我想留在神罗。”</p>
+<p>不易察觉的困惑闪过。头一次的，不再是语气平平的陈述句。“为什么？我带你离开那个地狱，离开宝条和他的实验，有什么不好吗？”</p>
+<p>“那又如何？我知道我的价值，神罗需要我，我有存在的意义。你呢？你想从我身上得到什么？我能给你什么？”萨菲罗斯自己站了起来，不想以这种难堪的姿势对话；他脚软摇晃了一下，再次跌坐，青年看起来竟有点想扶他，“如果都是被利用，至少神罗没有欺骗我！”</p>
+<p>青年愣住了。</p>
+<p>萨菲罗斯避开他的视线，不想看到其中的怜悯、同情或者别的什么。这糟透了，自己就像个软弱无助的孩子，只会靠喊叫来发泄心中的无能为力。不该这样的。他可以这么想，这么说，这么做……却不是在一个见面不到一天的陌生人面前。</p>
+<p>他甚至还不知道他名字。</p>
+<p>一只手轻轻压上他的脑袋，小心翼翼地，带着笨拙的温柔，“我不会欺骗你。永远不会。”</p>
+<p>“……”</p>
+<p>“还走得动吗？”</p>
+<p>没有等待回答，青年解下剑套，把从不离身的武器扔到了萨菲罗斯怀里。还没等他明白什么意思，青年已经蹲下，背朝他，偏头示意。</p>
+<p>萨菲罗斯抓紧了剑套。</p>
+<p>“上来。我背你。”</p>
+<p>“……”</p>
+<p>这个人……怎么能……若无其事地说出这种话……？</p>
+<p>不受控制地，萨菲罗斯把剑套背在后背，迟疑地、慢慢地碰到那宽阔可靠的肩膀，环住了对方的脖颈。他从来没有和谁挨得这么近过，另一个人的体温，另一个人的脊背，能够支撑自己的体重，也能为他撑起一片没有危险的天空。</p>
+<p>他身上有阳光的味道。萨菲罗斯悄悄把脸埋在青年的肩窝里，仔细嗅着。<br>“至少……告诉我你的名字……”</p>
+<p>“克劳德。”</p>
+<p>云吗……和阳光真相称啊……</p>
+<p>疲倦如潮水般袭来，萨菲罗斯慢慢闭上眼，感觉克劳德又把自己往上掂了掂，然后便陷入了一片舒适而安全的黑暗。他们消失在教堂的阴影中，只有百合静静绽放，沾染的血液在阳光中无声蒸发，再也不见一丝踪迹。</p>
+<p><br><br><br></p>
+<p>“……那里有一种叫忍者的职业，神出鬼没，来去无踪。”剪刀竖着贴着前额，咔擦作响，感觉还挺像模像样。萨菲罗斯闭着眼睛，静静地听克劳德跟他讲外面的故事，那些因为没有必要而没人教他的事。“他们最喜欢做的是绕到背后割喉，所以士兵在五台行走的时候，不得不举起左手护住喉咙……”</p>
+<p>萨菲罗斯从未想过剪头发这种事，他很困惑，为何自己从未对此有所想法。但是当克劳德一下剪掉银色的长发，并且眼中流露惋惜时，萨菲罗斯所感到的只有一阵久违的轻松。</p>
+<p>碎发弄得眼睛痒痒的。萨菲罗斯忍不住伸手揉了一下。克劳德短暂停止动作，确定不是哪里出了差错后，又继续修剪起来。萨菲罗斯享受着这平和的时光，克劳德说的话、克劳德挥动的剪刀、克劳德朝他的眼睑轻轻吹着气。</p>
+<p>“你跟他们交过手吗？”</p>
+<p>“当然，而且还是忍者中的忍者，精英中的精英——她偷走了我所有的魔石。”怀念地笑起来——萨菲罗斯没错过这小小的笑容——克劳德继续说道，“等我们到了五台，我还能把她介绍给你认识，只要你保证别揍她。”</p>
+<p>这人得有多欠揍……？</p>
+<p>“头低一下。”</p>
+<p>萨菲罗斯低下头，后颈、耳朵、额头都被细心涂上凡士林，然后冰凉的油膏被抹在头发上，被克劳德轻柔地揉开。眼角是不明显的黑色，男孩有点不高兴了，“我想要金色，你那样的。”</p>
+<p>“我喜欢黑色。”克劳德理所当然地说，丝毫没觉得哪里不对，“头抬一抬，眉毛也要染。”</p>
+<p>更不对劲的是，萨菲罗斯被说服了。</p>
+<p>！<a href="escape.jpg">插图1</a><br><a target="_blank" rel="noopener" href="https://jizhuyaobunengting.lofter.com/post/1e603443_eea226aa">插图作者：药妖</a></p>
+<p>等待着色的时间里，克劳德又挤了些金色、红色还有深灰色的染料，混成一团后才摘下手套扔在一边。塔克斯如影随形，给他们制造点乐子也好。然后他打开旅行袋，翻出了压箱底的裙子，熟练地开始变装。</p>
+<p>“我准备了通行证。他们都认为我们会暴力冲卡，所以，我们会直接搭火车离开。”</p>
+<p>“你的剑呢？”萨菲罗斯最先想到的却是这个，“过不了安检。”</p>
+<p>“没关系。带走你就够了。”</p>
+<p>“我们明明可以直接突破的！”萨菲罗斯跳下椅子，毫不吃力地举起剑，挥舞起来，“你那么强，我也不会拖后腿，没有人能拦下我们！”</p>
+<p>克劳德惊讶地看着他，往胸罩里塞垫子的动作才进行到一半，滑稽又可笑。萨菲罗斯不自觉地移开视线，有些不甘心地嘟着嘴，“我不是累赘，不需要你因此丢弃什么。”</p>
+<p>“你当然不是。”克劳德摇头，整好内衣，从下往上套好连衣裙，“能帮我拉下拉链吗？我的手抬不起来。”</p>
+<p>“……什么？”</p>
+<p>青年伸出手，让萨菲罗斯摸摸手臂的肌肉，还有潜藏在下方凸起的硬块。几乎是瞬间，萨菲罗斯就意识到了那是什么——没来得及取出的子弹，和肌肉长在了一起，甚至可能压迫到了神经。</p>
+<p>“你为什么不——”</p>
+<p>“医疗点一定被监控了，塔克斯不会想不到的。”</p>
+<p>“那你还背我！”萨菲罗斯气急败坏地吼他，飞快地摸索其他地方，“还有呢？还有哪里？”他很快在肩膀和大腿找到了其他弹头，当按下去的时候，克劳德发出了轻微的抽气声，制止了他胡乱摸索的手。食指顶着男孩的脑门，让黑毛远离自己干净的衣服。</p>
+<p>“你又不重。而且，小孩子就应该撒娇。”</p>
+<p>“不是这个问题！”</p>
+<p>“没事的。”克劳德说。他跪下来，揩拭萨菲罗斯微微湿润的眼角，“不要害怕，只要有我在，就没有人能伤害你。”</p>
+<p>萨菲罗斯摇头，委屈地咬着嘴唇，眼泪在眼眶里打转儿。他看着克劳德困惑的表情，最终什么也没说，忿忿地抱紧了他，久久不愿松开。</p>
+<p><br><br><br></p>
+<p>克劳德牵着萨菲罗斯的手，穿行在朱农晦暗的贫民窟中，亦步亦趋往前走。</p>
+<p>“等等，克劳德！”</p>
+<p>“等等！等一下！”</p>
+<p>男孩拽紧了他，直到这时，克劳德才意识到有人在叫他停下，蹲下问：“怎么了？”</p>
+<p>萨菲罗斯抿紧嘴，担忧地看着青年潮红的脸颊、浅淡的嘴唇，蓝色的眼睛焕发着不详的青光。他不自觉地握紧了克劳德的手，相连的手心被冷汗涔涔所湿透。“……我累了。我们休息一下吧。”最终，他也只是这么说。</p>
+<p>“我背你？”</p>
+<p>“我想休息了！”</p>
+<p>迟钝地眨眼，克劳德终于领悟了这过于隐晦的关心。他试图笑笑，却忍不住咳了起来。萨菲罗斯顺着他的背轻轻拍打，每一次咳嗽带起的颤栗都令他焦虑疯长；而当他看见克劳德掌心的血迹时，猛地抓住了他想藏起来的手。</p>
+<p>“你需要医生。”</p>
+<p>“我只是有点晕车。”</p>
+<p>“克劳德！”</p>
+<p>“没事的。”随便在衣服上擦了擦，克劳德从口袋拿出船票，塞进萨菲罗斯手里，“你先拿着，背面写了注意事项。”萨菲罗斯没有接，任由船票飘落至湿漉漉的地上，定定地看着青年。克劳德又把它捡起，不由分说塞进萨菲罗斯兜里。</p>
+<p>做完这一切时，他摇晃了一下，勉力靠萨菲罗斯撑着自己，气喘吁吁。<br>“抵达了西大陆后，追踪会弱很多……”</p>
+<p>“你想丢下我。”萨菲罗斯打断他。</p>
+<p>“听我说——”</p>
+<p>“如果你丢下我，我现在就回神罗。”</p>
+<p>“萨菲罗斯！”克劳德大声喝止，然后又小声哀求，“听我说，你听我说。我没有想丢下你。我只是……只是……可能走不动了。他们的目标是你，你快走吧，我会追上来的。不去五台也没关系，随便找个什么地方，远离神罗，远离宝条，然后总有一天我会找到你……”</p>
+<p>萨菲罗斯从来没听克劳德说过这么多，像是要把一辈子的话都说完。</p>
+<p>他一边讨厌这些虚伪的话，一边却又希望克劳德能继续说下去，一直说，不要停。但是浑浑噩噩的几句低喃后，青年脱力地栽倒在他身上，颤抖着失去了意识。</p>
+<p>萨菲罗斯没有慌。一点也没有。他背起克劳德——青年的脚还拖着地，笼罩着他小小的身躯——汽笛长鸣，属于他们的航班正驶离朱农港，但是萨菲罗斯头也不回地走进了黑暗。</p>
+<p><br><br><br></p>
+<p>“说出去？噢，不会，不可能的。”长着雀斑的小医生说，“你可千万别传出去。我还没考执照，非法行医的话一辈子就毁了。”他在贫民窟行医，一部分是为了挣点学费，更多的是为了给穷人看病，“除了呕吐、咳血还有什么症状？”</p>
+<p>“三天前遭受了枪击，用魔石治愈了。”萨菲罗斯谨慎地说，“但是子弹留在了身体里。”</p>
+<p>“腹部呢？腹部有枪伤吗？”</p>
+<p>“……有刀伤。”</p>
+<p>“那应该是了。”医生挠挠头，“呕吐和板状腹……感染引起的急性腹膜炎，还硬撑了那么久，不知道内脏坏死到什么程度。他需要手术。”</p>
+<p>“那就做手术。”萨菲罗斯说。</p>
+<p>医生摇头，“把他送去大医院。”</p>
+<p>青年无意识地呻吟了一声，萨菲罗斯凑了过去，抱住他的头，轻声说了点什么，尽管病人也许什么也听不到。医生看着这一幕，心里很不是滋味；而当那个孩子以一种快要哭出来的表情说“只有你能救他了”的时候，他知道自己再也没有办法拒绝了。</p>
+<p><br><br><br></p>
+<p>手术结束时，医生端出来一个恶臭的盆子。</p>
+<p>那是一盆肿胀发黑的肠子。你甚至不能想象一个人身体里有这么多器官，蜷缩在不大的腹腔里。然后萨菲罗斯才意识到，自他们相遇以来，克劳德从没有在他面前进食过。</p>
+<p>“切除了70%的肠道还有一部分胃。抗生素已经给到最高级别，你注意他的体温，如果退烧了，就有希望；有什么异常再叫我。”站了六个小时的医生也快透支了，不再多说什么，把盆子丢给护士，摇摇晃晃走了。</p>
+<p>几乎没有无菌条件。裸露的上半身绷带勒得很紧，令青年呼吸困难，短促而可怜地喘息着。真是奇怪，能硬闯全世界安全等级最高的神罗大厦，能在神罗军的重重围堵下脱逃，这样一个人却会被小小的细菌打败，如此虚弱无力地躺在这里，随时可能被死神带走。</p>
+<p>萨菲罗斯慢慢抓着克劳德的手，用自己的体温温暖冰凉的输液管，好让他能稍微暖和一点。</p>
+<p>他不再完整了，萨菲罗斯想。属于克劳德•斯特莱夫的某些部分永远地消失，留在这里的是个残缺不全的他，而一切都是因为自己。</p>
+<p>自己有这个价值吗？他不明白。他们认识不到一个星期，在此之前，“萨菲罗斯”对克劳德不过是一个名字，几个音节，一些毫无意义的符号；这些足以让一个人为另一个……另一个怪物付出如此之大的代价吗？这背后一定有什么他不知道的原因……丑恶的、残忍的……可是萨菲罗斯问不出口。</p>
+<p>如果问出来，克劳德是不是就会扔下他？</p>
+<p>萨菲罗斯受不了地握紧他的手，看见回血时吓了一跳，又马上松开。他慢慢倒退，缩到角落，缩成小小的一团，蜷在阴影中，被恐惧所淹没。他本来可以忍受的，如果他不知道拥有是什么感觉，他可以忍受一切的背叛和失去；可是克劳德对他这么残忍，把这个世界美好的一面展现给他，让他看到了那么多本不该妄想的东西。</p>
+<p>“萨菲……罗斯……”虚弱的声音轻轻飘至耳际，微微闪烁的荧光透过黑暗，看见了萨菲罗斯无助的身影，“你在……哭吗……？”</p>
+<p>“没有。”萨菲罗斯在膝盖里埋了一会，这才抬起头，“哪里痛吗？我去叫——”</p>
+<p>“一起睡吧。”克劳德说，“不要一个人要待在那里。”</p>
+<p>“别傻了。你会感染的。”</p>
+<p>“我……”克劳德迟钝地思考，不知所措地说，“我……我冷……嗯……快冷死了……”</p>
+<p>“……”</p>
+<p>“给我暖一会被窝，可以吗？就一会……”他说得仿佛事实如此，无可置疑，萨菲罗斯几乎就要信了；明明是假的……明明只是在欺骗他……“<strong>我需要你</strong>，不要离开我，好吗？”</p>
+<p>从未有一个谎言如此动人，让萨菲罗斯宁愿相信它是真的。</p>
+<p>萨菲罗斯离开了他的角落，小心翼翼地、又迫不及待地爬上床，小心地避开管线和绷带，在克劳德身边躺下。克劳德让开完好的那只手臂，搭在男孩头上，然后揽进怀里，发出一声满足的喟叹。</p>
+<p>“你不会扔下我的，是吗？”</p>
+<p>“当然不会。”</p>
+<p>如此简单，如此理所当然。</p>
+<p>男孩拼命睁着双眼，泪水还是不争气地濡湿了床单。都不重要了。即使一辈子活在逃亡的阴影中，一辈子无法触碰虚假背后的真相，沉溺于美好而又过于脆弱的梦境……只要能抓着这个人的手，就都没关系了。</p>
+<p>他无声地哭泣着，心里却被前所未有的幸福填满。</p>
+<p><br><br><br></p>
+<p>克劳德的恢复力异常惊人，惊人得令萨菲罗斯有些害怕。他不能免疫伤害，但是一旦伤害因子被移除，就没有任何介入的必要了。即使失去了相当多的内脏，第二天的时候，他就能够坐起来简单活动——他甚至想就此溜走，被萨菲罗斯愤怒地呵斥了一通，又委屈巴巴地躺下。</p>
+<p>可细胞分裂的次数是有限的。无论人类、还是别的什么，都不可能逃过这个定律。</p>
+<p>萨菲罗斯只想快点长大。他知道自己总有一天会比任何人都强，从研究员畏惧且惊叹的目光中，从宝条从不吝啬的高度赞美中；如果他变得比克劳德更为强大，就再也不必害怕任何失去他的可能。</p>
+<p>但是眼下，他必须先小诊所帮忙，直到医生分批次偷渡足够的营养剂。<br>他无法忘记克劳德吃下第一口食物后，不到三十分钟就不得不去厕所的窘境；克劳德为此难堪和不知所措，但是萨菲罗斯只感到窒息般的绝望，脑海一片空白。</p>
+<p>他甚至想就此放弃，回到神罗，只要宝条能够帮他。</p>
+<p>“我们以后会在五台生活。”</p>
+<p>克劳德告诉他，似乎猜到他在想什么，却不说破，只会笨拙地用别的方法安慰他。</p>
+<p> “五台人非常……纤细？很多人都搞不懂他们相处的方式，总是有敬语和过度的礼貌，有时候甚至比米德加人更像机器。但是他们当中也有一些不一样的人，压抑已久的天性被释放时，热情会变得难以招架——你会想念他们的敏感害羞的。”</p>
+<p>“五台有着大片的密林，几乎每天都下雨，也几乎每天都艳阳高照。那里非常潮湿，所有的屋子的地基都会被挑空，然后铺上榻榻米。榻榻米就是……藤条编的地毯，非常凉快。那里没有床，冬天也只是在地上铺上一层被子；不过我们也可以自己做床，毕竟榻榻米真的很硬。”</p>
+<p>“五台是个充满生命的地方。”克劳德又说，用语言给萨菲罗斯编织着美丽的梦，“推开门，走到庭院里，会有松鼠呆呆地看着你；如果给它们坚果，它们会全部塞进嘴里带走，腮帮子鼓鼓囊囊。我们还会有一个池塘，然后在旁边种上鱼木，春天开花的时候，白色的花会落在水里，鱼吃了都会死掉。”</p>
+<p>“死掉是怎么回事？”萨菲罗斯惊了。</p>
+<p>克劳德笑了，奋力揉了揉男孩的脑袋，“你都不笑了，我很担心。”</p>
+<p>“我笑过吗？”萨菲罗斯偏开头，有点不好意思。</p>
+<p>“没。那你给我笑个呗。我想看。”</p>
+<p>“……”</p>
+<p>“小孩子就不要想那么多了。”克劳德打了个哈欠，眯缝着眼，困倦地眼泪溢了出来，“那些需要烦恼的事，让大人来做……就可以了……”</p>
+<p>他就这么靠在枕头上睡着了，歪着脑袋，睫毛在脸上投下浅浅的阴影。萨菲罗斯叹了口气，轻轻帮他往下挪了些，又把被子掖好。当看着他宁静的睡脸时，萨菲罗斯着魔般伸出手，指尖眷恋描摹着脸颊地弧度。</p>
+<p>他悄悄笑了一下。</p>
+<p><br><br><br></p>
+<p>货轮在海浪中颠簸。</p>
+<p>冬季本不该有这么暴虐的风暴，像要把钢铁的巨轮从龙骨处折断，然后将一切卷入漆黑的海底。萨菲罗斯被颠醒时，克劳德已经不在房间；他猛地跳起来，等意识到的时候，不知道自己为什么已经跑上了甲板。</p>
+<p>冰冷的雨狂暴地打在身上，片刻便淋了个透湿。顶着几乎让人睁不开眼的雨幕，萨菲罗斯扶着船舷，在颠簸中慢慢向青年靠近。<br>“克劳德——！你在干什么——！”</p>
+<p>克劳德没有回答。他只是怔怔地站在甲板上，哀伤地注视波涛汹涌的黑暗；雨水划过脸颊，滴滴答答像在流泪。“你……”声音被风暴吞没，模模糊糊只剩几个音节，“……这么恨我……是吗……？”</p>
+<p>“克劳德！”萨菲罗斯抓住他的手臂，“克劳德！跟我回去！”</p>
+<p>剧烈的冲撞令他们瞬间腾空，货轮猛地向左侧倾斜，固定货柜的绳索承受不住地崩断，危险地在空中狂甩。回过神来的时候萨菲罗斯已经被克劳德护在怀里，青年扯着绳索，斜立在已经歪斜了45度的甲板上，看着货柜纷纷冲出甲板。</p>
+<p>“那是什么？”萨菲罗斯抱紧克劳德，感受船身慢慢恢复平衡，却不知道下一次冲击会在什么时候到来。</p>
+<p>“绿宝石。”保护他的身躯正在颤抖，像被抽去了所有的力气，只剩一个苍白的空壳。不是因为力量的差距，而是更深的、发自内心的绝望。“它是星球的愤怒，也是对我的惩罚。”</p>
+<p>“什么的惩罚？”</p>
+<p>“一个……没能挽回的错误。”</p>
+<p>萨菲罗斯感觉心脏被攫紧了。他仰头，又被克劳德按进怀里，看不见那个人的表情。风雨被挡在臂膀之外，只有他们两个，静悄悄的，只有心跳被无限放大。</p>
+<p>萨菲罗斯忽然明白了。</p>
+<p>“是我……？”他崩溃了，又哭又笑，“我就是那个错误，你本来是来杀我的，对吗？”</p>
+<p>“……”</p>
+<p>“你还在等什么？快把我扔下去啊？”萨菲罗斯挣扎起来，疯狂地扭打克劳德，撕咬他拥抱自己的手臂，血味渗进齿间，“我不需要你的怜悯！我宁愿去死！”</p>
+<p>克劳德跪下来，捧着萨菲罗斯的脸，无所适从地看着男孩哭泣地脸。这一切都是错误，萨菲罗斯想，否则他的表情不会如此悲伤、如此绝望。但是最后，一个冰冷的吻落在男孩的额头上，带着爱怜的温柔。</p>
+<p>“你不是错误。”</p>
+<p>然后，萨菲罗斯被推下了甲板。</p>
+<p><br><br><br></p>
+<p>全体攻击的范围笼罩了整个货轮。</p>
+<p>没有任何物理或者魔法能够防御它的攻击。还没来得及放下救生艇，船员便在冲击中倒下，血在甲板上流了一片，又被暴雨所洗刷。水压依次突破厚重的水密门，汹涌着淹没了锅炉和密封舱；结构的破坏在上层引起了火灾和爆炸，无尽的黑暗中亮起一朵耀眼的烟花，随着波涛起起伏伏。</p>
+<p>克劳德手里只剩一颗『火焰』。他握着它，静静地看着绿色的庞然大物在海中逡巡，随时等待将面前的目标吞噬。绿宝石是深海武器，当它来到浅海时，密度的差异已经让它苟延残喘，只知道将眼前的一切摧毁殆尽。</p>
+<p>“没有人能伤害你。”</p>
+<p>他亲吻了一下冰冷的魔石。</p>
+<p><br><br><br></p>
+<p>“萨菲罗斯，醒醒，萨菲罗斯？”</p>
+<p>萨菲罗斯艰难睁开眼，冰霜凝结在睫毛上，扑簌簌地落下。他冻僵了，浑身又麻又痛，动弹不得。聚焦花了很长时间，模糊的光景慢慢清晰，呼吸间白雾化开在空气里，与冰冷的月色融为一体。</p>
+<p>慢慢转动脑袋，克劳德微笑着抚摸他的额头，“你醒了。”</p>
+<p>萨菲罗斯眨眼，窸窣的浪潮缓缓拍打海岸，浮沫冲击着碎冰涌上沙滩。克劳德没有放弃他，他们一起活了下来，这个事实是如此令他喜悦。如果不是脸冻僵了，他一定会笑出来，再也没有任何顾及。</p>
+<p>“我们……”牙齿在打颤，萨菲罗斯哈了口热气，“我们……在哪……？？”</p>
+<p>“黄金海岸。我们到西大陆了。”</p>
+<p>萨菲罗斯闭上双眼，稍稍缓和了一会，等待冷硬的肢体重新变得柔软；他习惯了从伤痛中恢复，但是从来没有像现在这样，满怀喜悦与期待。</p>
+<p>他在克劳德的帮助下坐起来，然后站立，生平第一次踩在沙子上的感觉是如此奇怪。他走了两步，向着红树林的方向，绰绰树影在微风中轻轻摩挲。他又转身，看见金沙与黑潮的分界线，斜斜地延伸至天际，前所未有的新奇涌上心头。克劳德看着他，目不转睛地看着这个头一次见到沙滩的大孩子，像要把这一幕永远烙在心里。</p>
+<p>“快到五台了是吗？”萨菲罗斯迫不及待地问他，“我们——”</p>
+<p>他愣住了。</p>
+<p>克劳德摇头，疲倦地停了一会，这才开口，“接下来的路，你要，自己走了。”</p>
+<p>萨菲罗斯不敢相信地伸出手，指尖碰到黏腻的污血时，又惊恐地缩了回来。一截带锯齿的白牙穿透了青年的胸膛，令他只能半蜷着身子跪在沙地上，涨起的潮水浸过了他的膝盖。毒素逡巡在他的血管中，粘稠而乌黑的血液顺着尖端慢慢滴落。</p>
+<p>“不……不会的……你不会有事的！” 双手颤抖地徘徊在胸口附近，不知所措地想要把利齿拔出来，却又不敢用劲，“你只是在吓我，对吗？因为我说了那些话？我不是那个意思！我只是在害怕……我不想你丢下我……”</p>
+<p>克劳德开始咳嗽，血从鼻腔和嘴里喷涌出来，他再次摇头，“我要死啦。”</p>
+<p>“你不能这样！”萨菲罗斯的心被撕成了碎片，以前所未有的方式疼痛着，“你擅自把我从那个鬼地方带出来，现在又要擅自把我丢下了吗！你怎么可以这样……你怎么可以对我这么残忍……！”</p>
+<p>克劳德伸出手。萨菲罗斯惊恐地看着，浑身颤抖，动弹不得，直到那只不再强壮的手揽住他，像是燃尽生命最后一丝火焰般，用力将他抱在怀里。那个怀抱有着整个世界的分量。</p>
+<p>“我的旅程已经到终点了，而你的才刚刚开始，萨菲罗斯。”</p>
+<p>“你说过不会扔下我的！”</p>
+<p>“骗你的。”狡黠的轻笑，更像某种虚弱的掩饰，“快走吧，涨潮了。”</p>
+<p>“那我该怎么办？没有你，我该怎么办？”</p>
+<p>“你是人类，萨菲罗斯。”拥紧他的手慢慢下滑，萨菲罗斯恐惧地睁大眼，“人类的路都是自己走的……没有人能……决定你的……道路……除了……你自己……”</p>
+<p>“我不明白啊！”</p>
+<p>浪潮猛地袭来，萨菲罗斯一个踉跄，冻僵的双手怎么也抓不住离去的身躯。他奋力向水中扑去，与白色的浪花和浮冰搏斗。金发正随波荡漾，淡色的血丝化开在冰冷的海水中，蓝色的眼睛温柔而眷恋地注视他，然后慢慢地、不舍地阖上，直到死亡的摇篮将他拥抱。萨菲罗斯绝望地向他伸出手，后背却传来一阵拉力，海岸的守夜人拽着他浮上水面，又往岸边游去。</p>
+<p>最后，萨菲罗斯脑海中只剩下一个苍白的念头。</p>
+<p>克劳德没有了。</p>
+<p><br><br><br></p>
+<hr>
+<p>*<a target="_blank" rel="noopener" href="https://jizhuyaobunengting.lofter.com/post/1e603443_eea226aa">插图来源</a></p>
+<p>*<a target="_blank" rel="noopener" href="https://jizhuyaobunengting.lofter.com/post/1e603443_eea3d955">插图2</a></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/FF7-%E7%9F%AD%E7%AF%87%E9%9B%86/" rel="tag"># FF7-短篇集</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/01/14/%E3%80%90FF7sc%E3%80%91%E9%A6%96%E5%85%88%EF%BC%8C%E8%A6%81%E6%9C%89%E6%A0%91%E5%B1%8B/" rel="prev" title="【FF7sc】首先，要有树屋">
+                  <i class="fa fa-chevron-left"></i> 【FF7sc】首先，要有树屋
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2021/01/14/%E3%80%90FF7sc%E3%80%91Escape-in%20Wutai/" rel="next" title="【FF7sc】Escape - in Wutai">
+                  【FF7sc】Escape - in Wutai <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+  
+  
+  
+
+
+
+      
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      
+
+      
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder"></span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
